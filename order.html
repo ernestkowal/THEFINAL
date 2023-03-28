@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image" href="images/pizza.png">
+    <link rel="stylesheet" href="order.css">
+</head>
+
+
+<body>
+
+    <!-- The Navbar Section -->
+    <div class="navbar">
+
+        <div class="heading">
+            <h3>Yeovil Pizza co.</h3>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a class='active' href="order.html">Shop & Order</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+    </div>
+    <!-- The Navbar Ending -->
+
+    <!-- The Main Section Start -->
+
+
+    <div class="info">
+        <h1>Compose your very own PIZZA</h1>
+    </div>
+
+
+    <div class="form">
+    <form>
+        <fieldset>
+          <legend>Contact Information</legend>
+          <label for="name">Name:</label>
+          <input type="text" placeholder="e.g. John Doe" id="name" name="name" required>
+          
+          <label for="email">Email:</label>
+          <input type="email" placeholder="e.g. John.Doe@gmail.com" id="email" name="email" required>
+          
+          <label for="phone">Phone:</label>
+          <input type="tel" placeholder="e.g. 666"id="phone" name="phone" required>
+          
+          <label for="deliver">Delivery:</label>
+          <input type="delivery" placeholder="e.g. London SW1A 0AA"id="delivery" name="delivery" required>
+        </fieldset>
+        
+        <fieldset>
+          <legend>Pizza Size</legend>
+          <label>
+            <input type="radio" name="size" value="small" required>
+            Small
+          </label>
+          
+          <label>
+            <input type="radio" name="size" value="medium">
+            Medium
+          </label>
+          
+          <label>
+            <input type="radio" name="size" value="large">
+            Large
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Base spread</legend>
+
+          <label>
+            <input type="radio" name="spread" required>
+            Tomato
+          </label>
+
+          
+          <label>
+            <input type="radio" name="spread" required>
+            Garlic
+          </label>
+          
+          <label>
+            <input type="radio" name="spread" required>
+            Plain (no spread)
+          </label>
+          
+          <label>
+            <input type="radio" name="spread" required>
+            Barbeque
+          </label>
+
+            
+
+
+          </label>
+
+        </fieldset>
+
+         
+
+        <fieldset>
+            <legend>Type of crust</legend>
+
+            <label>
+              <input type="radio" name="crust" required>
+              Normal
+            </label>
+
+            <label>
+              <input type="radio" name="crust" required>
+              Thin
+            </label>
+
+            <label>
+              <input type="radio" name="crust" required>
+              Stuffed
+            </label>
+
+            <label>
+              <input type="radio" name="crust" required>
+              Cheesy
+            </label>
+
+            <label>
+              <input type="radio" name="crust" required>
+              Flatbread
+            </label>
+
+            <label>
+              <input type="radio" name="crust" required>
+              Gluten-free
+            </label>
+
+        </fieldset>
+        
+        <fieldset>
+          <legend>Toppings</legend>
+              <label>
+                <input type="checkbox" name="toppings[]" value="pepperoni">
+                Pepperoni
+              </label>
+              
+              <label>
+                <input type="checkbox" name="toppings[]" value="sausage">
+                Sausage
+              </label>
+              
+              <label>
+                <input type="checkbox" name="toppings[]" value="chicken">
+                Chicken
+              </label>
+              
+              <label>
+                <input type="checkbox" name="toppings[]" value="mushrooms">
+                Mushrooms
+              </label>
+
+              <label>
+                <input type="checkbox" name="toppings[]" value="peppers">
+                Peppers
+              </label>
+              
+              <label>
+                <input type="checkbox" name="toppings[]" value="olives">
+                Olives
+              </label>
+
+              <label>
+                <input type="checkbox" name="toppings[]" value="anchovies">
+                Anchovies
+              </label>
+
+              <label>
+                <input type="checkbox" name="toppings[]" value="ham">
+                Ham
+              </label>
+              
+              <label>
+                <input type="checkbox" name="toppings[]" value="pineapple">
+                Pineapples
+              </label>
+              
+              <label>
+                <input type="checkbox" name="toppings[]" value="mozzarella">
+                Mozarella
+              </label>
+              
+              <label>
+                <input type="checkbox" name="toppings[]" value="onions">
+                Red Onions
+              </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Dipping sauces (extra fee)</legend>
+
+          <label>
+            <input type="checkbox" name="dips" value="garlic">
+            Garlic
+          </label>
+
+          <label>
+            <input type="checkbox" name="dips" value="ketchup">
+            Ketchup
+          </label>
+
+          <label>
+            <input type="checkbox" name="dips" value="bbq">
+            Bbq
+          </label>
+
+          <label>
+            <input type="checkbox" name="dips" value="mayonaisse">
+            Mayonaisse
+          </label>
+
+          <label>
+            <input type="checkbox" name="dips" value="cream">
+            Cream Sauce
+          </label>
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Extra Information</legend>
+            <textarea name="comment" cols="60" rows="7" placeholder="Please tell us any information to make your pizza super good..."></textarea>
+              
+        </fieldset>
+
+        <a href="confirm.html" class="button">Order</a>
+   </form>
+
+   
+
+
+   </div>
+  
+    <!-- The Footer Section -->
+
+    <div class="footer">
+
+        <div class="f-info">
+            <h3>Yeovil Pizza co.</h3>
+            <p>There will be information about this page later on</p>
+        </div>
+
+        <div class="footer-menu">
+            <ul class="f-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="order.html">Shop & Order</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+
+<script src="order.js"></script>
+
+
+</body>
+
+
+</html>

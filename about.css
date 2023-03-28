@@ -1,0 +1,32 @@
+body {
+background-color: #fff6db;
+height: 130vh;
+}
+  
+.about-us {
+background-color: #fff;
+width: 1000px;
+margin: 0 auto;
+padding: 50px;
+text-align: center;
+border-radius: 10px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+position: absolute;
+top: 45%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+  
+.about-us h1 {
+color: #ee0707;
+font-size: 36px;
+margin-bottom: 20px;
+text-decoration: underline;
+}
+  
+.about-us p {
+font-size: 18px;
+margin-bottom: 40px;
+color: #9b1111;
+}
+

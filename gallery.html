@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="icon" type="image" href="images/pizza.png">
+</head>
+
+
+<body>
+
+    <!-- The Navbar Section -->
+    <div class="navbar">
+
+        <div class="heading">
+            <h3>Yeovil Pizza co.</h3>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="order.html">Shop & Order</a></li>
+            <li><a class='active' href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+    </div>
+    <!-- The Navbar Ending -->
+
+    <!-- The Main Section Start -->
+
+    <div class="full" id="fullBox">
+        <img src="images/gallery/img1.jpg" id="fullImg">
+        <span onclick="closefullImg()">X</span>
+    </div>
+
+
+    <div class="images">
+        <img src="images/gallery/img1.jpg" onclick="openfullImg(this.src)">
+        <img src="images/gallery/img2.jpg" onclick="openfullImg(this.src)">
+        <img src="images/gallery/img3.jpg" onclick="openfullImg(this.src)">
+        <img src="images/gallery/img4.jpg" onclick="openfullImg(this.src)">
+        <img src="images/gallery/img5.jpg" onclick="openfullImg(this.src)">
+        <img src="images/gallery/img6.jpg" onclick="openfullImg(this.src)">
+        <img src="images/gallery/img7.jpg" onclick="openfullImg(this.src)">
+        <img src="images/gallery/img8.jpg" onclick="openfullImg(this.src)">
+        <img src="images/gallery/img9.jpg" onclick="openfullImg(this.src)">
+        <img src="images/gallery/img10.jpg" onclick="openfullImg(this.src)">
+    </div>
+
+   
+
+
+    <!-- The Footer Section -->
+
+    <div class="footer">
+
+        <div class="f-info">
+            <h3>Yeovil Pizza co.</h3>
+            <p>There will be information about this page later on</p>
+        </div>
+
+        <div class="footer-menu">
+            <ul class="f-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="order.html">Shop & Order</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+<script>
+
+var fullBox = document.getElementById("fullBox");
+var fullImg = document.getElementById("fullImg");
+
+function openfullImg(pic){
+    fullBox.style.display = "flex";
+    fullImg.src = pic;
+}
+
+function closefullImg(){
+    fullBox.style.display = "none";
+}
+
+
+</script>
+
+</body>
+
+
+</html>
